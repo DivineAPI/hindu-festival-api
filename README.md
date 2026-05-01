@@ -18,7 +18,7 @@
 
 The **Hindu Festival API** by DivineAPI is a suite of 15+ REST endpoints for Hindu festival calendars. Query by Gregorian month, by Hindu lunar month (Chaitra, Vaishakha, ... Phalguna), by specific date, or by festival name. Get back dates, fasting and parana (break-fast) times, and hosted festival images, ready to drop into a calendar or reminder app. Plain JSON over HTTPS, 25 languages, no SDK required.
 
-Part of the broader [DivineAPI platform](https://github.com/DivineAPI/astrology-api) (200+ astrology, horoscope, tarot and numerology endpoints).
+Part of the broader [DivineAPI platform](https://github.com/DivineAPI/astrology-api) (300+ astrology, horoscope, tarot and numerology endpoints).
 
 ## Why choose DivineAPI's Hindu Festival API?
 
