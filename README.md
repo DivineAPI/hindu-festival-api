@@ -38,17 +38,17 @@ Part of the broader [DivineAPI platform](https://github.com/DivineAPI/astrology-
 
 | Endpoint | Docs |
 |---|---|
-| English Calendar Specific Festivals | [link](https://developers.divineapi.com/indian-api/festival-api/english-calendar-specific/english-calendar-specific-festivals-api) |
-| Date Specific Festivals | [link](https://developers.divineapi.com/indian-api/festival-api/date-specific-festivals/date-specific-festivals-api) |
-| Festival Specific (lookup by name) | [link](https://developers.divineapi.com/indian-api/festival-api/festival-specific/festival-specific-api) |
+| English Calendar Specific Festivals | [link](https://developers.divineapi.com/indian-api/festival-api/english-calendar-specific) |
+| Date Specific Festivals | [link](https://developers.divineapi.com/indian-api/festival-api/date-specific-festivals) |
+| Festival Specific (lookup by name) | [link](https://developers.divineapi.com/indian-api/festival-api/festival-specific) |
 
 ### Hindu Lunar Months (Jan - Jun)
 
 | Endpoint | Docs |
 |---|---|
-| Find Magha Festivals (Jan - Feb) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-magha-festivals/find-magha-festivals-api) |
-| Find Phalguna Festivals (Feb - Mar) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-phalguna-festivals/find-phalguna-festivals-api) |
-| Find Chaitra Festivals (Mar - Apr) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-chaitra-festivals/find-chaitra-festivals-api) |
+| Find Magha Festivals (Jan - Feb) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-magha-festivals) |
+| Find Phalguna Festivals (Feb - Mar) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-phalguna-festivals) |
+| Find Chaitra Festivals (Mar - Apr) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-chaitra-festivals) |
 | Find Vaishakha Festivals (Apr - May) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-vaishakha-festivals) |
 | Find Jyeshtha Festivals (May - Jun) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-jyeshtha-festivals) |
 | Find Ashadha Festivals (Jun - Jul) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-ashadha-festivals) |
@@ -59,9 +59,9 @@ Part of the broader [DivineAPI platform](https://github.com/DivineAPI/astrology-
 |---|---|
 | Find Shravana Festivals (Jul - Aug) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-shravana-festivals) |
 | Find Bhadrapada Festivals (Aug - Sep) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-bhadrapada-festivals) |
-| Find Ashwin Festivals (Sep - Oct) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-ashwin-festivals/find-ashwin-festivals-api) |
+| Find Ashwin Festivals (Sep - Oct) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-ashwin-festivals) |
 | Find Kartik Festivals (Oct - Nov) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-kartik-festivals) |
-| Find Margashirsha Festivals (Nov - Dec) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-margashirsha-festivals/find-margashirsha-festivals-api) |
+| Find Margashirsha Festivals (Nov - Dec) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-margashirsha-festivals) |
 | Find Paush Festivals (Dec - Jan) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-paush-festivals) |
 
 Full reference, request/response samples, and live "try-it" console → **[developers.divineapi.com/indian-api/festival-api](https://developers.divineapi.com/indian-api/festival-api)**
@@ -98,7 +98,7 @@ Authenticate with a Bearer token in the `Authorization` header **and** pass `api
 | `lon` | float | ✓ | Longitude | `77.1025` |
 | `tzone` | float | ✓ | Timezone offset from UTC | `5.5` |
 
-Full docs → **[developers.divineapi.com/indian-api/festival-api/english-calendar-specific/english-calendar-specific-festivals-api](https://developers.divineapi.com/indian-api/festival-api/english-calendar-specific/english-calendar-specific-festivals-api)**
+Full docs → **[developers.divineapi.com/indian-api/festival-api/english-calendar-specific/english-calendar-specific-festivals-api](https://developers.divineapi.com/indian-api/festival-api/english-calendar-specific)**
 
 ### Sample response
 
@@ -349,7 +349,7 @@ func main() {
 
 Code samples on this page are free to copy into your own projects, no attribution required. Marketing copy, logos, and the **DivineAPI** name are © 2026 DivineAPI, all rights reserved.
 
-For the terms that govern the API service itself, see [divineapi.com/terms](https://divineapi.com/terms).
+For the terms that govern the API service itself, see [divineapi.com/terms](https://divineapi.com/terms-service).
 
 ## Contact
 
