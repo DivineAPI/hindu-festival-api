@@ -1,356 +1,382 @@
-# Hindu Festival API - DivineAPI
+# Hindu Festival API by DivineAPI
 
-> Free **Hindu Festival API** for developers. 15+ REST endpoints for Hindu festival dates by Gregorian month, Hindu lunar month, or festival name, with festival images and fasting/parana times. Plain JSON over HTTPS, 25 languages, no SDK required.
+![Hindu Festival API by DivineAPI](.github/social-preview.png)
 
-[![Get API Key](https://img.shields.io/badge/Get%20API%20Key-cb22e6?style=for-the-badge&logoColor=white)](https://divineapi.com/register)
-[![Live Docs](https://img.shields.io/badge/Live%20Docs-4F46E5?style=for-the-badge&logoColor=white)](https://developers.divineapi.com/indian-api/festival-api)
-[![API Status](https://img.shields.io/badge/API%20Status-10b981?style=for-the-badge&logoColor=white)](https://status.divineapi.com)
-[![14-Day Free Trial](https://img.shields.io/badge/14--Day%20Free%20Trial-039BE5?style=for-the-badge&logoColor=white)](https://divineapi.com/register)
-[![Postman](https://img.shields.io/badge/Run%20in%20Postman-FF6C37?style=for-the-badge&logoColor=white)](https://documenter.getpostman.com/view/26759678/2sBXitCnDX)
+The Hindu Festival API (a Hindu calendar API for festivals) returns festival dates for a year and place as JSON, with puja muhurat, vrat and parana (fast-breaking) times and a festival image. Query by Gregorian month, by Hindu lunar month (Chaitra to Phalguna), by date or by festival name, or get the sankranti, Tamil and Malayalam festival calendars.
 
-<p align="center">
-  <img src="https://developers.divineapi.com/public/assets/web/images/divineIcon.svg" alt="DivineAPI, Hindu Festival API for developers" width="120" />
-</p>
+[![Docs](https://img.shields.io/badge/docs-developers.divineapi.com-4F46E5)](https://developers.divineapi.com/indian-api/festival-api)
+[![14-day free trial](https://img.shields.io/badge/14--day_free_trial-start-039BE5)](https://divineapi.com/start-trial)
+[![Postman](https://img.shields.io/badge/Postman-collection-FF6C37)](https://documenter.getpostman.com/view/26759678/2sBYAysU8Y)
+[![Status](https://img.shields.io/badge/status-status.divineapi.com-10b981)](https://status.divineapi.com)
 
----
+Verified live against the DivineAPI API on 2 October 2026.
 
-## What is the Hindu Festival API?
-
-The **Hindu Festival API** by DivineAPI is a suite of 15+ REST endpoints for Hindu festival calendars. Query by Gregorian month, by Hindu lunar month (Chaitra, Vaishakha, ... Phalguna), by specific date, or by festival name. Get back dates, fasting and parana (break-fast) times, and hosted festival images, ready to drop into a calendar or reminder app. Plain JSON over HTTPS, 25 languages, no SDK required.
-
-Part of the broader [DivineAPI platform](https://github.com/DivineAPI/astrology-api) (300+ astrology, horoscope, tarot and numerology endpoints).
-
-## Why choose DivineAPI's Hindu Festival API?
-
-- **15+ REST endpoints** covering every major Hindu festival lookup pattern
-- **Query three ways**: by Gregorian month, by Hindu lunar month, or by festival name
-- **Parana (fasting break) times** for Ekadashi, Pradosha, and other vrats
-- **Hosted festival images** included in every response, ready to embed
-- **Accurate calculations** with Smartas and Vaishnavas tradition variants
-- **Global coverage**: festivals calculated for any latitude/longitude/timezone
-- **25-language output**: English, Hindi, Sanskrit, and more
-- **No SDK lock-in**: plain JSON over HTTPS, works with every language
-- **Live status page**: uptime monitored at [status.divineapi.com](https://status.divineapi.com)
-
-## All endpoints in the Hindu Festival API
-
-### General Festival Lookups
-
-| Endpoint | Docs |
-|---|---|
-| English Calendar Specific Festivals | [link](https://developers.divineapi.com/indian-api/festival-api/english-calendar-specific) |
-| Date Specific Festivals | [link](https://developers.divineapi.com/indian-api/festival-api/date-specific-festivals) |
-| Festival Specific (lookup by name) | [link](https://developers.divineapi.com/indian-api/festival-api/festival-specific) |
-
-### Hindu Lunar Months (Jan - Jun)
-
-| Endpoint | Docs |
-|---|---|
-| Find Magha Festivals (Jan - Feb) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-magha-festivals) |
-| Find Phalguna Festivals (Feb - Mar) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-phalguna-festivals) |
-| Find Chaitra Festivals (Mar - Apr) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-chaitra-festivals) |
-| Find Vaishakha Festivals (Apr - May) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-vaishakha-festivals) |
-| Find Jyeshtha Festivals (May - Jun) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-jyeshtha-festivals) |
-| Find Ashadha Festivals (Jun - Jul) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-ashadha-festivals) |
-
-### Hindu Lunar Months (Jul - Dec)
-
-| Endpoint | Docs |
-|---|---|
-| Find Shravana Festivals (Jul - Aug) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-shravana-festivals) |
-| Find Bhadrapada Festivals (Aug - Sep) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-bhadrapada-festivals) |
-| Find Ashwin Festivals (Sep - Oct) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-ashwin-festivals) |
-| Find Kartik Festivals (Oct - Nov) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-kartik-festivals) |
-| Find Margashirsha Festivals (Nov - Dec) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-margashirsha-festivals) |
-| Find Paush Festivals (Dec - Jan) | [link](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-paush-festivals) |
-
-Full reference, request/response samples, and live "try-it" console → **[developers.divineapi.com/indian-api/festival-api](https://developers.divineapi.com/indian-api/festival-api)**
+This repo is the developer quickstart for DivineAPI's **festival calendar** endpoints, part of the Vedic API (140+ endpoints). It answers "when is Karwa Chauth this year, and what is the puja time?". For the day-level almanac (tithi, nakshatra, choghadiya, Rahu kaal, muhurat finder) use the [Panchang API](https://github.com/DivineAPI/panchang-api).
 
 ---
 
-## Quick start
+## Quickstart (60 seconds)
 
-1. **Get your API key** → [divineapi.com/register](https://divineapi.com/register) (14-day free trial, no credit card)
-2. **Make your first call** - see the walkthrough below
-3. **Browse all endpoints** → [developers.divineapi.com/indian-api/festival-api](https://developers.divineapi.com/indian-api/festival-api)
+**1. Get your keys.** Start the [14-day free trial](https://divineapi.com/start-trial) (credit card required to activate the trial), then copy your **API key** and **auth token** from the dashboard.
 
----
+Every request is a `POST` with `multipart/form-data`, and needs both:
 
-## Walkthrough: English Calendar Specific Festivals
+- header `Authorization: Bearer YOUR_AUTH_TOKEN`
+- form field `api_key=YOUR_API_KEY`
 
-The flagship endpoint. Give a Gregorian year and month, get back every Hindu festival in that window with dates, fasting/parana times (where applicable), and image URLs.
+Runnable files: [`examples/`](examples) (curl, Python, Node.js, PHP).
 
-```http
-POST https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals
+**2. curl**: all festivals in October 2026 for New Delhi
+
+```bash
+curl -s -X POST "https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals" \
+  -H "Authorization: Bearer YOUR_AUTH_TOKEN" \
+  -F "api_key=YOUR_API_KEY" \
+  -F "year=2026" -F "month=10" \
+  -F "place=new delhi" \
+  -F "lat=28.6139" -F "lon=77.2090" -F "tzone=5.5"
 ```
 
-Authenticate with a Bearer token in the `Authorization` header **and** pass `api_key` in the request body (both required).
+**3. Python (requests)**
 
-### Request body
+```python
+import requests
 
-| Parameter | Type | Required | Description | Example |
-|---|---|:---:|---|---|
-| `api_key` | string | ✓ | Your DivineAPI key | `YOUR_API_KEY` |
-| `year` | integer | ✓ | Gregorian year | `2025` |
-| `month` | integer | ✓ | Gregorian month (1-12) | `11` |
-| `place` | string | - | Place name (optional) | `New Delhi` |
-| `lat` | float | ✓ | Latitude | `28.7041` |
-| `lon` | float | ✓ | Longitude | `77.1025` |
-| `tzone` | float | ✓ | Timezone offset from UTC | `5.5` |
+URL = "https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals"
+AUTH_TOKEN = "YOUR_AUTH_TOKEN"
+API_KEY = "YOUR_API_KEY"
 
-Full docs → **[developers.divineapi.com/indian-api/festival-api/english-calendar-specific/english-calendar-specific-festivals-api](https://developers.divineapi.com/indian-api/festival-api/english-calendar-specific)**
+fields = {
+    "api_key": API_KEY,
+    "year": "2026", "month": "10",
+    "place": "new delhi",
+    "lat": "28.6139", "lon": "77.2090", "tzone": "5.5",
+}
+resp = requests.post(
+    URL,
+    headers={"Authorization": f"Bearer {AUTH_TOKEN}"},
+    files={k: (None, v) for k, v in fields.items()},  # multipart/form-data
+    timeout=60,
+)
+body = resp.json()
+if body.get("success") != 1:  # legacy hosts return HTTP 200 even on errors
+    raise SystemExit(f"API error: {body.get('msg')}")
 
-### Sample response
+
+def first_date(value):
+    """Festival shapes vary: {date}, a list of days, or smartas/vaishnavas variants."""
+    if isinstance(value, list):
+        return first_date(value[0])
+    if "date" in value:
+        return value["date"]
+    return first_date(next(iter(value.values())))
+
+
+for key, value in body["data"].items():
+    print(first_date(value), key)
+```
+
+Output (real run):
+
+```text
+2026-10-01 pitru_paksha
+2026-10-03 jivit_putrika_vrat
+2026-10-06 indira_ekadashi
+2026-10-08 pradosha_vrat
+2026-10-10 pitru_amavasya
+2026-10-11 shardiya_navaratri
+2026-10-15 upang_lalita_vrat
+2026-10-20 vijayadashami
+2026-10-20 kanya_pujan
+2026-10-22 papankusha_ekadashi
+2026-10-25 sharad_purnima
+2026-10-25 kojagara_puja
+2026-10-29 karwa_chauth
+```
+
+**Node.js (18+, built-in fetch)**
+
+```javascript
+const URL = "https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals";
+const AUTH_TOKEN = "YOUR_AUTH_TOKEN";
+const API_KEY = "YOUR_API_KEY";
+
+const fields = {
+  api_key: API_KEY,
+  year: "2026", month: "10",
+  place: "new delhi",
+  lat: "28.6139", lon: "77.2090", tzone: "5.5",
+};
+const form = new FormData();
+for (const [k, v] of Object.entries(fields)) form.append(k, v);
+
+const res = await fetch(URL, {
+  method: "POST",
+  headers: { Authorization: `Bearer ${AUTH_TOKEN}` },
+  body: form,
+});
+const body = await res.json();
+if (body.success !== 1) throw new Error(`API error: ${JSON.stringify(body.msg)}`);
+
+// Festival shapes vary: {date}, a list of days, or smartas/vaishnavas variants.
+const firstDate = (v) =>
+  Array.isArray(v) ? firstDate(v[0]) : v.date ?? firstDate(Object.values(v)[0]);
+
+for (const [name, value] of Object.entries(body.data)) {
+  console.log(firstDate(value), name);
+}
+```
+
+Save it as `festivals.mjs` and run `node festivals.mjs` (top-level `await` needs an ES module).
+
+**4. PHP (cURL)**
+
+```php
+<?php
+$ch = curl_init("https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals");
+curl_setopt_array($ch, [
+    CURLOPT_POST           => true,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_HTTPHEADER     => ["Authorization: Bearer YOUR_AUTH_TOKEN"],
+    // An array (not a query string) makes cURL send multipart/form-data
+    CURLOPT_POSTFIELDS     => [
+        "api_key" => "YOUR_API_KEY",
+        "year" => "2026", "month" => "10",
+        "place" => "new delhi",
+        "lat" => "28.6139", "lon" => "77.2090", "tzone" => "5.5",
+    ],
+]);
+$body = json_decode(curl_exec($ch), true);
+curl_close($ch);
+
+if (($body["success"] ?? 0) !== 1) {
+    exit("API error: " . json_encode($body["msg"] ?? $body));
+}
+foreach ($body["data"] as $festival => $value) {
+    echo $festival . PHP_EOL;
+}
+```
+
+---
+
+## Example response
+
+`POST /indian-api/v1/english-calendar-festivals` for October 2026 (real response, trimmed). Each key is a festival; the value carries the date and the timings that matter for that festival:
 
 ```json
 {
   "success": 1,
   "data": {
-    "kalabhairav_jayanti": {
-      "date": "2023-12-05",
-      "image": "https://astroapi-6.divineapi.com/public/assets/vedic/festivals/images/main/Kaal Bhairava Jayanti.png"
-    },
-    "utpanna_ekadashi": {
-      "smartas": {
-        "date": "2023-12-08",
-        "parana": {
-          "start_time": "2023-12-09 13:07:29",
-          "end_time":   "2023-12-09 15:13:29"
-        },
-        "image": "https://astroapi-6.divineapi.com/public/assets/vedic/festivals/images/main/Utpanna Ekadashi.png"
+    "pitru_paksha": [
+      {
+        "date": "2026-10-01",
+        "tithi": { "tithi": "Shasthi", "paksha": "Krishna", "start_time": "2026-10-01 12:36:00", "end_time": "2026-10-02 10:15:00" },
+        "kutup": { "start_time": "2026-10-01 11:50:01", "end_time": "2026-10-01 12:38:01" },
+        "aparahna": { "start_time": "2026-10-01 13:26:01", "end_time": "2026-10-01 15:44:01" },
+        ...
       },
-      "vaishnavas": {
-        "date": "2023-12-09",
-        "parana": {
-          "start_time": "2023-12-10 06:53:11",
-          "end_time":   "2023-12-10 07:13:00"
-        },
-        "image": "https://astroapi-6.divineapi.com/public/assets/vedic/festivals/images/main/Utpanna Ekadashi.png"
-      }
+      ...
+    ],
+    "indira_ekadashi": {
+      "smartas": {
+        "date": "2026-10-06",
+        "parana": { "start_time": "2026-10-07 06:17:14", "end_time": "2026-10-07 08:38:14" },
+        "image": "https://astroapi-6.divineapi.com/public/assets/vedic/festivals/images/main/Indira%20Ekadashi.png"
+      },
+      "vaishnavas": { "date": "2026-10-06", ... }
     },
-    "vivah_panchanmi": {
-      "date": "2023-12-17",
-      "image": "https://astroapi-6.divineapi.com/public/assets/vedic/festivals/images/main/Vivah Panchanmi.png"
-    }
-    // ... all other festivals in the month, keyed by festival name
+    "shardiya_navaratri": {
+      "pratipada": {
+        "date": "2026-10-11",
+        "puja": "Shailputri Puja",
+        "ghatasthapana_abhijit_muhurat": { "start_time": "2026-10-11 11:44:45", "end_time": "2026-10-11 12:31:13" },
+        ...
+      },
+      ...
+    },
+    "vijayadashami": {
+      "date": "2026-10-20",
+      "vijay_muhurta": { "start_time": "2026-10-20 13:59:34", "end_time": "2026-10-20 14:45:02" },
+      "aparahna_puja_time": { "start_time": "2026-10-20 13:13:54", "end_time": "2026-10-20 15:30:54" },
+      "image": "https://astroapi-6.divineapi.com/public/assets/vedic/festivals/images/main/Vijayadashami.png"
+    },
+    "karwa_chauth": {
+      "date": "2026-10-29",
+      "vrat_timings": { "start_time": "2026-10-29 06:30:52", "end_time": "2026-10-29 20:07:58" },
+      "puja_timings": { "start_time": "2026-10-29 17:38:33", "end_time": "2026-10-29 18:55:51" },
+      "moonrise": "2026-10-29 20:07:58",
+      "image": "https://astroapi-6.divineapi.com/public/assets/vedic/festivals/images/main/Karwa%20Chauth.png"
+    },
+    ...
   }
 }
 ```
 
-Note: fasting days like Ekadashi and Pradosha return both `smartas` and `vaishnavas` tradition variants with their own dates and parana windows.
+**Sankranti** `POST /indian-api/v1/sankranti-festivals` for 2026 returns the 12 sankrantis plus regional new-year and harvest days (Lohri, Pongal, Vaisakhi, Vishu, Puthandu, Pohela Boishakh and others):
 
----
-
-## Code examples
-
-### cURL
-
-```bash
-curl -X POST "https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals" \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/x-www-form-urlencoded" \
-  --data-urlencode "api_key=YOUR_API_KEY" \
-  --data-urlencode "year=2025" \
-  --data-urlencode "month=11" \
-  --data-urlencode "place=New Delhi" \
-  --data-urlencode "lat=28.7041" \
-  --data-urlencode "lon=77.1025" \
-  --data-urlencode "tzone=5.5"
-```
-
-### Python (requests)
-
-```python
-import requests
-
-url = "https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals"
-
-headers = {
-    "Authorization": "Bearer YOUR_API_KEY",
-    "Content-Type": "application/x-www-form-urlencoded",
-}
-
-payload = {
-    "api_key": "YOUR_API_KEY",
-    "year":    2025,
-    "month":   11,
-    "place":   "New Delhi",
-    "lat":     28.7041,
-    "lon":     77.1025,
-    "tzone":   5.5,
-}
-
-response = requests.post(url, headers=headers, data=payload)
-print(response.json())
-```
-
-### JavaScript (browser, fetch)
-
-```javascript
-const url = "https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals";
-
-const body = new URLSearchParams({
-  api_key: "YOUR_API_KEY",
-  year:  2025,
-  month: 11,
-  place: "New Delhi",
-  lat:   28.7041,
-  lon:   77.1025,
-  tzone: 5.5,
-});
-
-const response = await fetch(url, {
-  method: "POST",
-  headers: {
-    "Authorization": "Bearer YOUR_API_KEY",
-    "Content-Type":  "application/x-www-form-urlencoded",
-  },
-  body,
-});
-
-const data = await response.json();
-console.log(data);
-```
-
-### Node.js (fetch, Node 18+)
-
-```javascript
-// Node.js 18+ ships with fetch built-in, no dependencies needed.
-
-async function getFestivals() {
-  const url = "https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals";
-
-  const body = new URLSearchParams({
-    api_key: "YOUR_API_KEY",
-    year:  2025,
-    month: 11,
-    place: "New Delhi",
-    lat:   28.7041,
-    lon:   77.1025,
-    tzone: 5.5,
-  });
-
-  const res = await fetch(url, {
-    method: "POST",
-    headers: {
-      "Authorization": "Bearer YOUR_API_KEY",
-      "Content-Type":  "application/x-www-form-urlencoded",
+```json
+{
+  "success": 1,
+  "data": {
+    "year": 2026,
+    "makar_sankranti": {
+      "date": "2026-01-14",
+      "sankranti_moment": "2026-01-14 15:08:00",
+      "punya_kala": { "start_time": "2026-01-14 15:08:00", "end_time": "2026-01-14 17:45:21" },
+      "maha_punya_kala": { "start_time": "2026-01-14 15:08:00", "end_time": "2026-01-14 16:53:00" },
+      "image": "https://astroapi-6.divineapi.com/public/assets/vedic/festivals/images/main/Makar%20Sankranti.png"
     },
-    body,
-  });
-
-  const data = await res.json();
-  console.log(data);
+    ...
+  }
 }
-
-getFestivals();
 ```
 
-### PHP (curl)
+**Festival by name** `POST /indian-api/v1/find-festival` with `festival=deepawali`:
 
-```php
-<?php
-$url = "https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals";
-
-$payload = http_build_query([
-    "api_key" => "YOUR_API_KEY",
-    "year"    => 2025,
-    "month"   => 11,
-    "place"   => "New Delhi",
-    "lat"     => 28.7041,
-    "lon"     => 77.1025,
-    "tzone"   => 5.5,
-]);
-
-$ch = curl_init($url);
-curl_setopt($ch, CURLOPT_POST, true);
-curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_HTTPHEADER, [
-    "Authorization: Bearer YOUR_API_KEY",
-    "Content-Type: application/x-www-form-urlencoded",
-]);
-
-$response = curl_exec($ch);
-curl_close($ch);
-
-echo $response;
-```
-
-### Go (net/http)
-
-```go
-package main
-
-import (
-    "fmt"
-    "io"
-    "net/http"
-    "net/url"
-    "strings"
-)
-
-func main() {
-    endpoint := "https://astroapi-3.divineapi.com/indian-api/v1/english-calendar-festivals"
-
-    form := url.Values{}
-    form.Set("api_key", "YOUR_API_KEY")
-    form.Set("year",    "2025")
-    form.Set("month",   "11")
-    form.Set("place",   "New Delhi")
-    form.Set("lat",     "28.7041")
-    form.Set("lon",     "77.1025")
-    form.Set("tzone",   "5.5")
-
-    req, _ := http.NewRequest("POST", endpoint, strings.NewReader(form.Encode()))
-    req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
-    req.Header.Set("Content-Type",  "application/x-www-form-urlencoded")
-
-    resp, err := http.DefaultClient.Do(req)
-    if err != nil {
-        panic(err)
-    }
-    defer resp.Body.Close()
-
-    body, _ := io.ReadAll(resp.Body)
-    fmt.Println(string(body))
+```json
+{
+  "success": 1,
+  "data": {
+    "date": "2026-11-08",
+    "puja_muhurat": { "start_time": "2026-11-08 17:55:00", "end_time": "2026-11-08 19:50:00" },
+    "nishita_muhurat": { "start_time": "2026-11-08 23:42:19", "end_time": "2026-11-09 00:35:19" },
+    "auspicious_choghadiya": [ ... ],
+    ...
+  }
 }
 ```
 
 ---
 
-## Other APIs by DivineAPI
+## What you can build
 
-[![Astrology API (hub)](https://img.shields.io/badge/Astrology%20API%20(hub)-cb22e6?style=for-the-badge&logoColor=white)](https://github.com/DivineAPI/astrology-api)
-[![Kundali API](https://img.shields.io/badge/Kundali%20API-cb22e6?style=for-the-badge&logoColor=white)](https://github.com/DivineAPI/kundali-api)
-[![Birth Chart API](https://img.shields.io/badge/Birth%20Chart%20API-cb22e6?style=for-the-badge&logoColor=white)](https://github.com/DivineAPI/birth-chart-api)
-[![Panchang API](https://img.shields.io/badge/Panchang%20API-cb22e6?style=for-the-badge&logoColor=white)](https://github.com/DivineAPI/panchang-api)
-[![Numerology API](https://img.shields.io/badge/Numerology%20API-cb22e6?style=for-the-badge&logoColor=white)](https://github.com/DivineAPI/numerology-api)
-[![Horoscope API](https://img.shields.io/badge/Horoscope%20API-cb22e6?style=for-the-badge&logoColor=white)](https://github.com/DivineAPI/horoscope-api)
-[![Daily Tarot](https://img.shields.io/badge/Daily%20Tarot-cb22e6?style=for-the-badge&logoColor=white)](https://github.com/DivineAPI/daily-tarot)
-[![Yes or No Tarot](https://img.shields.io/badge/Yes%20or%20No%20Tarot-cb22e6?style=for-the-badge&logoColor=white)](https://github.com/DivineAPI/yes-or-no-tarot)
-[![Fortune Cookie](https://img.shields.io/badge/Fortune%20Cookie-cb22e6?style=for-the-badge&logoColor=white)](https://github.com/DivineAPI/fortune-cookie)
-[![Coffee Cup Reading](https://img.shields.io/badge/Coffee%20Cup%20Reading-cb22e6?style=for-the-badge&logoColor=white)](https://github.com/DivineAPI/coffee-cup-reading)
+- A Hindu festival calendar page or app, month by month, with festival images.
+- Vrat reminders: Ekadashi with parana times, Pradosha, Karwa Chauth with moonrise.
+- "Upcoming festivals" widgets for temple, puja-booking or e-commerce sites.
+- Regional calendars for Tamil Nadu and Kerala audiences (Tamil and Malayalam festival endpoints).
+- A sankranti and harvest-festival feed (Makar Sankranti, Pongal, Lohri, Vishu, Vaisakhi).
 
 ---
 
-## Resources
+## Endpoints
 
-- **Full documentation** → [developers.divineapi.com/indian-api/festival-api](https://developers.divineapi.com/indian-api/festival-api)
-- **Parent platform README** → [github.com/DivineAPI/astrology-api](https://github.com/DivineAPI/astrology-api)
-- **API status** → [status.divineapi.com](https://status.divineapi.com)
-- **Postman collection** → [Run in Postman](https://documenter.getpostman.com/view/26759678/2sBXitCnDX)
-- **Changelog** → [developers.divineapi.com/changelog](https://developers.divineapi.com/changelog)
-- **Support** → [admin@divineapi.com](mailto:admin@divineapi.com)
+All festival endpoints are on host **`https://astroapi-3.divineapi.com`**. Each row links to its docs page.
+
+### By Gregorian date
+
+| Endpoint | Path | Input | Docs |
+|---|---|---|---|
+| Festivals in a Gregorian month | `/indian-api/v1/english-calendar-festivals` | year, month | [docs](https://developers.divineapi.com/indian-api/festival-api/english-calendar-specific) |
+| Festivals on a date | `/indian-api/v1/date-specific-festivals` | year, month, day | [docs](https://developers.divineapi.com/indian-api/festival-api/date-specific-festivals) |
+| One festival by name | `/indian-api/v1/find-festival` | year, festival | [docs](https://developers.divineapi.com/indian-api/festival-api/festival-specific) |
+
+### By Hindu lunar month (input: year)
+
+| Lunar month | Path | Docs |
+|---|---|---|
+| Chaitra | `/indian-api/v2/chaitra-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-chaitra-festivals) |
+| Vaishakha | `/indian-api/v2/vaishakha-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-vaishakha-festivals) |
+| Jyeshtha | `/indian-api/v2/jyeshtha-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-jyeshtha-festivals) |
+| Ashadha | `/indian-api/v2/ashada-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-ashadha-festivals) |
+| Shravana | `/indian-api/v2/shraavana-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-shravana-festivals) |
+| Bhadrapada | `/indian-api/v2/bhadrapada-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-bhadrapada-festivals) |
+| Ashwin | `/indian-api/v2/ashvina-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-ashwin-festivals) |
+| Kartik | `/indian-api/v2/kartika-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-kartik-festivals) |
+| Margashirsha | `/indian-api/v2/margashirsh-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-margashirsha-festivals) |
+| Paush | `/indian-api/v2/pausha-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-paush-festivals) |
+| Magha | `/indian-api/v2/magha-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-magha-festivals) |
+| Phalguna | `/indian-api/v2/phalguna-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/hindu-calendar-specific/find-phalguna-festivals) |
+
+Note the path spellings (`ashada`, `shraavana`, `ashvina`, `kartika`, `margashirsh`, `pausha`): use them exactly as shown. For 2026, `chaitra-festivals` returns, among others, Ugadi and Gudi Padwa (2026-03-19), Ram Navami, Hanuman Jayanti and Chaitra Navaratri.
+
+### Regional and solar calendars (input: year)
+
+| Endpoint | Path | Docs |
+|---|---|---|
+| Sankranti festivals | `/indian-api/v1/sankranti-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/sankranti-festivals) |
+| Tamil festivals | `/indian-api/v1/tamil-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/tamil-festivals) |
+| Malayalam festivals | `/indian-api/v1/malayalam-festivals` | [docs](https://developers.divineapi.com/indian-api/festival-api/malayalam-festivals) |
+
+Tamil festivals for 2026 include Thai Pongal, Puthandu, Tamil Deepavali, Karthigai Deepam and Vaikuntha Ekadashi; Malayalam festivals include Vishu Kani, Onam, Thrissur Pooram, Attukal Pongala and the Malayalam new year (with `malayalam_kollavarsham`).
 
 ---
 
-## License & Usage
+## Parameters and gotchas
 
-Code samples on this page are free to copy into your own projects, no attribution required. Marketing copy, logos, and the **DivineAPI** name are © 2026 DivineAPI, all rights reserved.
+| Field | Example | Notes |
+|---|---|---|
+| `api_key` | `YOUR_API_KEY` | Form field, on every request (plus the Bearer header) |
+| `year` | `2026` | Required on every festival endpoint |
+| `month`, `day` | `10`, `08` | Only on the Gregorian month and date endpoints |
+| `festival` | `karwa_chauth` | Only on `find-festival` |
+| `place` | `new delhi` | Lowercase city string |
+| `lat`, `lon` | `28.6139`, `77.2090` | Decimal degrees. Dates and timings depend on the location |
+| `tzone` | `5.5` | Decimal UTC offset (5.5 = IST). Never `+5:30` or a zone name. Not DST-adjusted |
 
-For the terms that govern the API service itself, see [divineapi.com/terms](https://divineapi.com/terms-service).
+- **Check `success`, not the HTTP status.** `astroapi-3` always returns HTTP 200. `success: 1` = OK, `success: 2` = validation error, `success: 3` = auth error; the reason is in `msg`.
+- **Festival names are snake_case keys**, the same keys the month endpoints return (`karwa_chauth`, `deepawali`, `shraavana_somvaar_vrat`). `festival=diwali` is rejected with "Please enter valid festival"; use `deepawali`.
+- **Response shapes differ per festival.** Most return an object with `date` and `image`; multi-day observances (Pitru Paksha, Pradosha Vrat) return a list; Ekadashis return `smartas` and `vaishnavas` variants, each with its own `parana` window; Navaratri returns one object per day. Recurring observances can return several dates (`find-festival` for Shraavana Somvaar returns four Mondays).
+- **No `lan` parameter.** The festival endpoints answer in English. The [Panchang API](https://github.com/DivineAPI/panchang-api) endpoints take `lan` in 8 Indian languages.
+- **Images** are hosted PNGs (the `image` field), ready to show next to each festival.
+- **Sidereal, Lahiri ayanamsa (fixed).** Positions come from Swiss Ephemeris, used under a commercial licence.
 
-## Contact
+---
 
-Questions, feature requests or partnership enquiries → **[admin@divineapi.com](mailto:admin@divineapi.com)**
+## SDKs and MCP
+
+| | Install / URL |
+|---|---|
+| Python SDK | `pip install divineapi` ([divineapi-python](https://github.com/DivineAPI/divineapi-python)) |
+| Node SDK | `npm install divineapi` ([divineapi-node](https://github.com/DivineAPI/divineapi-node)) |
+| PHP SDK | `composer require divineapi/divineapi` ([divineapi-php](https://github.com/DivineAPI/divineapi-php)) |
+| MCP server (Indian / Vedic) | `https://mcp.divineapi.com/indian/mcp` ([setup](https://developers.divineapi.com/mcp), [mcp-indian-astrology](https://github.com/DivineAPI/mcp-indian-astrology)) |
+
+---
+
+## Which plan includes this
+
+The festival calendar is billed through DivineAPI's **Vedic plans** (Vedic Sampoorna, Vedic Ananta, Vedic Prakash), the same plans that carry the panchang. Check [divineapi.com/pricing](https://divineapi.com/pricing) to see which festival endpoints each plan includes.
+
+## FAQ
+
+**How is this different from the Panchang API?**
+The Panchang API describes a single day (tithi, nakshatra, choghadiya, Rahu kaal, muhurat). The Hindu Festival API returns named festivals and their observance times for a month, a lunar month or a year. Many apps use both.
+
+**How do I get every festival in a month?**
+Call `english-calendar-festivals` with `year` and `month`. For a lunar month (for example Kartik), call that month's endpoint with `year`.
+
+**How do I get one festival's date, such as Karwa Chauth or Diwali?**
+Call `find-festival` with `year` and the festival key (`karwa_chauth`, `deepawali`). It returns the date and the festival's timings.
+
+**Why do dates change with the location?**
+Tithis and sunrise depend on latitude, longitude and time zone, so a festival can fall on a different day in different places. Send the user's own `lat`, `lon` and `tzone`.
+
+**Does it include parana times for Ekadashi?**
+Yes. Ekadashi entries return `smartas` and `vaishnavas` variants, each with a `parana` start and end time.
+
+**What does it cost to add a festival calendar?**
+Festival endpoints are priced as part of the Vedic plans on [divineapi.com/pricing](https://divineapi.com/pricing). To check the dates for your city first, start the [14-day free trial](https://divineapi.com/start-trial) (credit card required to activate the trial) and run the October 2026 call above.
+
+---
+
+## Related repos
+
+| Repo | What it covers |
+|---|---|
+| [panchang-api](https://github.com/DivineAPI/panchang-api) | Daily panchang, choghadiya, auspicious timings, muhurat finder |
+| [kundli-api](https://github.com/DivineAPI/kundli-api) | Kundli (Vedic birth chart), dashas, doshas, yogas |
+| [lal-kitab-api](https://github.com/DivineAPI/lal-kitab-api) | Lal Kitab charts, teva, debts and varshphal |
+| [astrology-api](https://github.com/DivineAPI/astrology-api) | Overview of all DivineAPI products (300+ endpoints) |
+| [horoscope-api](https://github.com/DivineAPI/horoscope-api) | Daily to yearly horoscopes in 25 languages |
+| [mcp-indian-astrology](https://github.com/DivineAPI/mcp-indian-astrology) | Vedic MCP server |
+
+## Support
+
+- Docs: [developers.divineapi.com/indian-api/festival-api](https://developers.divineapi.com/indian-api/festival-api)
+- Postman collection: [documenter.getpostman.com/view/26759678/2sBYAysU8Y](https://documenter.getpostman.com/view/26759678/2sBYAysU8Y)
+- API status: [status.divineapi.com](https://status.divineapi.com)
+- Help centre: [support.divineapi.com](https://support.divineapi.com)
+
+## License
+
+Code samples in this repository are released under the MIT License (see [LICENSE](LICENSE)). The DivineAPI name and logo are trademarks of DivineAPI.
