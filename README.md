@@ -8,6 +8,7 @@ The Hindu Festival API (a Hindu calendar API for festivals) returns festival dat
 [![14-day free trial](https://img.shields.io/badge/14--day_free_trial-start-039BE5)](https://divineapi.com/start-trial)
 [![Postman](https://img.shields.io/badge/Postman-collection-FF6C37)](https://documenter.getpostman.com/view/26759678/2sBYAysU8Y)
 [![Status](https://img.shields.io/badge/status-status.divineapi.com-10b981)](https://status.divineapi.com)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/DivineAPI/hindu-festival-api)
 
 Verified live against the DivineAPI API on 2 October 2026.
 
@@ -329,7 +330,7 @@ Tamil festivals for 2026 include Thai Pongal, Puthandu, Tamil Deepavali, Karthig
 | Python SDK | `pip install divineapi` ([divineapi-python](https://github.com/DivineAPI/divineapi-python)) |
 | Node SDK | `npm install divineapi` ([divineapi-node](https://github.com/DivineAPI/divineapi-node)) |
 | PHP SDK | `composer require divineapi/divineapi` ([divineapi-php](https://github.com/DivineAPI/divineapi-php)) |
-| MCP server (Indian / Vedic) | `https://mcp.divineapi.com/indian/mcp` ([setup](https://developers.divineapi.com/mcp), [mcp-indian-astrology](https://github.com/DivineAPI/mcp-indian-astrology)) |
+| Model Context Protocol (MCP) server (Indian / Vedic) | `https://mcp.divineapi.com/indian/mcp` ([setup](https://developers.divineapi.com/mcp), [mcp-indian-astrology](https://github.com/DivineAPI/mcp-indian-astrology)) |
 
 ---
 
